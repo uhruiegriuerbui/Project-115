@@ -1,0 +1,12 @@
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes example{
+    from{ box-shadow:  5px, 5px, 10px, yellow;}
+    to{box-shadow: 5px, 5px, 10px, red;}
+    }
+    .btn-sucess:hover{
+    background-color: brown;
+    }
